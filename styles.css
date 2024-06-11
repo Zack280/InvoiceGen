@@ -1,0 +1,33 @@
+.options {
+    height: 30rem;
+    width: 50rem;
+    border: 1rem solid #393943;
+    background-color: #387FC8;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.options input, .options button {
+    width: 80%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3B552;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #393943;
+}
